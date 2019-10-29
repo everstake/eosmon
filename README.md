@@ -31,7 +31,7 @@ ExecStart=/usr/local/bin/node_exporter --collector.textfile.directory /var/lib/n
 WantedBy=multi-user.target  
 ```  
 ### Start script eos_exporter.sh.  
-This script collect metrics to textfile. You need to set variables in eos_exporter.sh. You can use supervisor to start this script. 
+This script collect metrics to text file. You need to set variables in eos_exporter.sh. You can use supervisor to start this script. 
 To check Node Exporter use curl http://localhost:9100/metrics.  
   
 ### Import template to Grafana.  
