@@ -2,7 +2,7 @@
 
 ### Requirements:  
 1. Node exporter
-2. Prometeus
+2. Prometheus
 3. Grafana  
 
 ### Start Node Exporter with collector.textfile.directory.
