@@ -35,5 +35,5 @@ This script collect metrics to text file. You need to set variables in eos_expor
 To check Node Exporter use curl http://localhost:9100/metrics.  
   
 ### Import template to Grafana.  
-You can import template Nodes_metrics.json to Grafana using standart import prosedure.  
+You can import template Nodes_metrics.json to Grafana using standard import procedure.  
 
