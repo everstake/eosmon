@@ -13,7 +13,7 @@ mkdir -p /var/lib/node_exporter/textfile_collector
   
 chown node_exporter:node_exporter /var/lib/node_exporter/textfile_collector  
 ```  
-Change configuration file:  
+Change service file:  
 ```
 vim /etc/systemd/system/node_exporter.service  
 [Unit]  
