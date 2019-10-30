@@ -1,4 +1,4 @@
-## EOSMON - monitoring EOS using Node Exporter, Prometheus and Grafana.  
+## EOSMON - monitoring EOS,TELOS,BOS,MEETONE using Node Exporter, Prometheus and Grafana.  
 
 ### Requirements:  
 1. Node exporter
