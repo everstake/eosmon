@@ -8,6 +8,7 @@ P.S. At the moment we are working on basic metrics for Cyberway and Worbli.
 1. Node exporter
 2. Prometheus
 3. Grafana  
+4. apt install jq
 
 ### Start Node Exporter with collector.textfile.directory.
 
