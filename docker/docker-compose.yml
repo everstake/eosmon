@@ -1,0 +1,30 @@
+version: '3'
+services:
+  prometheus:
+    image: prom/prometheus
+    volumes:
+      - ./prometheus/:/etc/prometheus/
+      - prom_data:/prometheus
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+      - '--web.console.libraries=/usr/share/prometheus/console_libraries'
+      - '--web.console.templates=/usr/share/prometheus/consoles'
+    ports:
+      - 9090:9090
+    restart: always
+  grafana:
+    image: grafana/grafana:6.3.2
+    restart: always
+    ports:
+    - 80:3000
+    expose:
+    - 80
+    volumes:
+    - ./grafana/provisioning/:/etc/grafana/provisioning/
+    - graf_data:/var/lib/grafana
+    env_file:
+    - ./grafana/config.monitoring
+volumes:
+    prom_data:
+    graf_data:
