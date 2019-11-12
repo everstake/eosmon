@@ -2,7 +2,7 @@
 
 Both exporter and the template (Prometheus/Grafana) are public and they demonstrate a possibility to display basic metrics of EOS-like networks such as ( EOS, TELOS, BOS, MEETONE), thus the metrics exporter should be installed and launched for every single network. It’s also planned to expand the number of chain specific metrics, so that we can have a detailed and complete picture of each ecosystem. In this regard, public contribution is welcomed!
 
-P.S. At the moment we are working on basic metrics for Cyberway and Worbli.
+You can find an example grafana dashboard for this setup on https://grafana.com/grafana/dashboards/11070
 
 ### Requirements:  
 1. Node exporter
