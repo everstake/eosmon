@@ -4,6 +4,8 @@ Both exporter and the template (Prometheus/Grafana) are public and they demonstr
 
 You can find an example grafana dashboard for this setup on https://grafana.com/grafana/dashboards/11070
 
+![dashboard](https://grafana.com/api/dashboards/11070/images/7047/image)
+
 ### Requirements:  
 1. Node exporter
 2. Prometheus
