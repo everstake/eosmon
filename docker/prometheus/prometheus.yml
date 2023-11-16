@@ -1,0 +1,14 @@
+global:
+  scrape_interval:     30s 
+  evaluation_interval: 30s 
+
+scrape_configs:
+  - job_name: 'prometheus'
+    scrape_interval: 15s
+    static_configs:
+    - targets: ['localhost:9090']
+
+  - job_name: 'producername'
+    scrape_interval: 30s
+    static_configs:
+    - targets: ['producernodeIP:9100']
