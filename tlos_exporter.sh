@@ -109,8 +109,8 @@ METRICDIR=/home/itadmin/node_exporter/textfile_collector
 # Mount point. for choose mount point use df -h
 MOUNTP="/"
 
-   get_memsize > ${METRICDIR}/eos_metrics.prom
-   get_headblock >> ${METRICDIR}/eos_metrics.prom
-   get_libblock >> ${METRICDIR}/eos_metrics.prom
-   get_cpu_usage >> ${METRICDIR}/eos_metrics.prom
-   get_mem_usage >> ${METRICDIR}/eos_metrics.prom
+   get_memsize > ${METRICDIR}/tlos_metrics.prom
+   get_headblock >> ${METRICDIR}/tlos_metrics.prom
+   get_libblock >> ${METRICDIR}/tlos_metrics.prom
+   get_cpu_usage >> ${METRICDIR}/tlos_metrics.prom
+   get_mem_usage >> ${METRICDIR}/tlos_metrics.prom
